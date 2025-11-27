@@ -66,7 +66,7 @@ export default function DigitalCard() {
         <div className="w-full flex flex-col gap-3 mt-2">
           {/* LinkedIn (Nota: Tu CV tenía un link genérico, asegúrate de editarlo si tienes el perfil exacto) */}
           <SocialButton 
-            href="https://www.linkedin.com/in/giancarlo-piero-mu%C3%B1oz-herrera-657a90348/" 
+            href="www.linkedin.com/in/giancarlo-piero-muñoz-herrera" 
             icon={<FaLinkedin />} 
             label="LinkedIn" 
             color="hover:bg-blue-700"
@@ -94,6 +94,14 @@ export default function DigitalCard() {
             color="hover:bg-emerald-600"
             isInternal={true}
           />
+
+          <SocialButton 
+            href="CV-Actualizado_.pdf"  
+            icon={<FaEnvelope />} 
+            label="Descargar CV" 
+            color="hover:bg-red-600"
+           />
+
         </div>
 
         {/* 5. CONTACTO DIRECTO (WhatsApp con tu número del CV) */}
