@@ -66,7 +66,7 @@ export default function DigitalCard() {
         <div className="w-full flex flex-col gap-3 mt-2">
           {/* LinkedIn (Nota: Tu CV tenía un link genérico, asegúrate de editarlo si tienes el perfil exacto) */}
           <SocialButton 
-            href="www.linkedin.com/in/giancarlo-piero-muñoz-herrera" 
+            href="https://linkedin.com/in/giancarlo-piero-muñoz-herrera" 
             icon={<FaLinkedin />} 
             label="LinkedIn" 
             color="hover:bg-blue-700"
@@ -79,6 +79,7 @@ export default function DigitalCard() {
             label="GitHub & Portafolio" 
             color="hover:bg-gray-700"
           />
+          
           
           <SocialButton 
             href="mailto:gean.munoz.herrera@gmail.com" 
